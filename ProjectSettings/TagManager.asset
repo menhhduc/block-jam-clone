@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - FinishingSlots
+  - Mob
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Obstacles
+  - Water
+  - UI
+  - Boundary
+  - Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Obstacle
+    uniqueID: 74776905
+    locked: 0
+  - name: Ground
+    uniqueID: 4287346819
+    locked: 0
+  - name: GamePlay
+    uniqueID: 4223720823
+    locked: 0
+  m_RenderingLayers:
+  - Default

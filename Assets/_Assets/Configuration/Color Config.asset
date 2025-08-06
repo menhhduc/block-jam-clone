@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110943376adb6584db4d9940086edc68, type: 3}
+  m_Name: Color Config
+  m_EditorClassIdentifier: 
+  colorDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+        m_TextWithWhitespace: "Keys\u200B"
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 0100000004000000020000000300000000000000
+    _keys: 0100000004000000020000000300000000000000
+    _values:
+    - {fileID: 2100000, guid: ac56879503138e04fa6056e35a55cceb, type: 2}
+    - {fileID: 2100000, guid: aad19395f80041b49934a422b15bcc47, type: 2}
+    - {fileID: 2100000, guid: 0e89d7d647b58254a80be92303f98606, type: 2}
+    - {fileID: 2100000, guid: 0512cc06066539d43997e821b0f8570e, type: 2}
+    - {fileID: 2100000, guid: 0fddb660433492f4b824f7dba4dfab81, type: 2}
