@@ -155,8 +155,6 @@ public class LevelManager : MonoBehaviour
         {
             MoveCharacterToSlot(charactersInFinish[i], finishSlots[i]);
         }
-        
-        // Just a test
     }
 
     private int FindInsertIndex(ColorType targetColor)
