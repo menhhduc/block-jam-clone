@@ -112,11 +112,11 @@ public class TestGrid : MonoBehaviour
                     bool isObstacle = Physics2D.OverlapPoint(pos, obstacleLayer);
                     if (isObstacle)
                     {
-                        Gizmos.color = Color.red; // Obstacles = red
+                        Gizmos.color = Color.red;
                     }
                     else
                     {
-                        Gizmos.color = Color.yellow; // Characters = yellow
+                        Gizmos.color = Color.magenta;
                     }
                 }
                 Gizmos.DrawCube(pos, Vector3.one * 0.35f);
