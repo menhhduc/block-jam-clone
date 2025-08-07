@@ -76,7 +76,6 @@ public class LevelManager : MonoBehaviour
     {
         if (testGrid == null)
         {
-            Debug.LogError("TestGrid reference is null!");
             return;
         }
 
@@ -188,7 +187,6 @@ public class LevelManager : MonoBehaviour
     private void MoveCharacterToSlot(Character character, Transform targetSlot)
     {
         character.transform.DOMove(targetSlot.position, 0.3f)
-            .SetEase(Ease.OutQuad)
-            .OnComplete(() => { Debug.Log($"Character {character.GetColorType()} moved to slot"); });
+            .SetEase(Ease.OutQuad);
     }
 }

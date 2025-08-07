@@ -72,7 +72,6 @@ public class Character : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Character Clicked");
         if (grid == null || LevelManager.Instance == null) return;
 
         List<Vector2Int> endPositions = LevelManager.Instance.GetEndPos();
@@ -136,7 +135,6 @@ public class Character : MonoBehaviour
 
     private void MoveToFinish()
     {
-        // NEW LOGIC: Get the sorted position directly
         Transform sortedSlot = LevelManager.Instance.GetSortedFinishSlot(this);
         if (sortedSlot != null)
         {
@@ -145,9 +143,7 @@ public class Character : MonoBehaviour
                 .SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
-                    // Add to finish list (character is already in the correct position)
                     LevelManager.Instance.AddCharacterToFinish(this);
-                    Debug.Log($"Character {colorType} moved to sorted position");
                 });
         }
     }
