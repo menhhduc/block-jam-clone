@@ -850,7 +850,7 @@ MonoBehaviour:
     spawnPositions:
     - {x: 0, y: 2}
     - {x: 3, y: 2}
-    - {x: 5, y: 5}
+    - {x: 5, y: 6}
   - characterPrefab: {fileID: 5249385431899991494, guid: a3160041590db0a40b458aeb310bf7b7, type: 3}
     spawnPositions:
     - {x: 0, y: 3}
