@@ -15,6 +15,7 @@ public class TestGrid : MonoBehaviour
     public LayerMask obstacleLayer;
 
     #region Public Getters
+    
     public TestNode[,] GetGrid() => grid;
     public bool[,] GetWalkable() => walkable;
     public int GetColumn() => column;
