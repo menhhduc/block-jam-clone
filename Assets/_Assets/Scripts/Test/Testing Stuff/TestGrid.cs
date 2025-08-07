@@ -108,7 +108,6 @@ public class TestGrid : MonoBehaviour
                 }
                 else
                 {
-                    // Check if it's an obstacle or just occupied by character
                     bool isObstacle = Physics2D.OverlapPoint(pos, obstacleLayer);
                     if (isObstacle)
                     {
