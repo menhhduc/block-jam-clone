@@ -7,7 +7,7 @@ This is the clone of the game **Block Jam 3D**
 - **IDE**: JetBrains Rider 2025.1.5
 
 ## Descriptions
-*Block Jam 2D* is a mobile-based puzzle game that emphasizes pattern recognition and strategic decision-making. The core gameplay mechanic requires players to identify and select groups of three tiles of the same color. Each level is structured into three to four sequential stages, with a progressively increasing level of difficulty. Players interact with the game by selecting tiles to form valid groups, after which new tiles are introduced to continue play. The game features seven designated finish slots; if all seven slots are occupied and no valid color groupings remain, the game session terminates.
+*Block Jam* is a mobile-based puzzle game that emphasizes pattern recognition and strategic decision-making. The core gameplay mechanic requires players to identify and select groups of three tiles of the same color. Each level is structured into three to four sequential stages, with a progressively increasing level of difficulty. Players interact with the game by selecting tiles to form valid groups, after which new tiles are introduced to continue play. The game features seven designated finish slots; if all seven slots are occupied and no valid color groupings remain, the game session terminates.
 
 ## Utils
 - **DOTween**
